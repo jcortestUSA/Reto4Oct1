@@ -1,8 +1,8 @@
 // ContentType: Cuando envíe datos al servidor, use este tipo de contenido. El valor predeterminado es application/x-www-form-urlencoded; charset=UTF-8, lo cual está bien para la mayoría de los casos.
 // DataType: El tipo de datos que espera del servidor. Si no se especifica ninguno, jQuery intentará inferirlo en función del tipo MIME de la respuesta. Puede ser text, xml, html, script, json, jsonp.
-const BASE_URL = 'http://localhost:8080'
+//const BASE_URL = 'http://localhost:8080'
 //const BASE_URL = 'http://localhost:81'
-//const BASE_URL = 'http://158.101.14.62:81'
+const BASE_URL = 'http://158.101.14.62:81'
 function guardarInformacionCategoria(){
 
     $("#resultado").empty();
